@@ -3,9 +3,9 @@ ln -fs /usr/share/zoneinfo/Asia/Manila /etc/localtime
 #change this according to your database details
 #Database Details
 dbhost='184.168.100.57';
-dbuser='zoeyvpn-user';
-dbpass='bTSF1r-l8iws';
-dbname='zoey-vpn';
+dbuser='vpns-user';
+dbpass='OQX&K=?U}E*8';
+dbname='vpns';
 dbport='3306';
 dbport='3306';
 RED='\033[01;31m';
@@ -74,7 +74,7 @@ $RESET"
  
  echo -e "                $RED
 |    
-               Ubunto SETUP by Dolor Antukab 
+               Ubunto SETUP by Michaele Abalos
 $RESET"
 }
 services () {
@@ -544,7 +544,7 @@ apt-get install netcat lsof php php-mysqli php-mysql php-gd php-mbstring python 
 cat << \websock > /usr/local/sbin/proxy.py
 #!/usr/bin/env python3
 # encoding: utf-8
-# SocksProxy By: Ykcir Ogotip Caayon
+# SocksProxy By: Michaele Abalos
 import socket, threading, thread, select, signal, sys, time, getopt
 
 # CONFIG
@@ -857,7 +857,7 @@ keysize 0
 setenv CLIENT_CERT 0
 reneg-sec 0
 verb 3
-# OVPN_ACCESS_SERVER_PROFILE=Tknetwork
+# OVPN_ACCESS_SERVER_PROFILE=VPN'S
 <ca>
 -----BEGIN CERTIFICATE-----
 MIIE5TCCA82gAwIBAgIJAP0GLynOqm38MA0GCSqGSIb3DQEBCwUAMIGnMQswCQYD
@@ -926,8 +926,8 @@ EOM
 <body>
 <div class="container" style="padding-top: 50px">
 <div class="jumbotron">
-<h1 class="display-3 text-center fn-color">Jhoesoft</h1>
-<h4 class="text-center fn-color">By Jhoel EM</h4>
+<h1 class="display-3 text-center fn-color">MikSoft</h1>
+<h4 class="text-center fn-color">By Michaele Abalos</h4>
 </div>
 </div>
 </body>
